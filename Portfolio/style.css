@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.main_nav {
+  display: flex;
+  justify-content: space-around;
+  margin: 33px 0px;
+}
+.main_nav i {
+  font-size: 25px;
+}
+.nav_menu ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px;
+  margin: 0px;
+}
+.nav_menu ul li {
+  margin: 0px 20px;
+  font-size: 20px;
+}
+.nav_menu ul li:hover {
+  cursor: pointer;
+  border-bottom: 3px solid #211678;
+  padding-bottom: 5px;
+}
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner ul {
+  display: flex;
+  padding: 0px;
+  margin-bottom: 30px;
+}
+.banner ul li {
+  list-style-type: none;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+.banner_image {
+  width: 40%;
+  height: 340px;
+  object-fit: cover;
+  margin-left: 30px;
+}
+.banner_image img {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.banner_a {
+  background-color: #0510ea;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  border-radius: 7px;
+  margin: 0px 18px 0px 0px;
+}
+.banner h3
+{
+color: #858585;
+}
+.main_head
+{
+    text-align: center;
+    margin: 63px 0px;
+}
+.my_skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 90%;
+}
+.my_skills div {
+  text-align: center;
+  background: aliceblue;
+  padding: 11px;
+  border-radius: 9px;
+  box-shadow: -2px 2px #94d6d5;
+  margin: 0px 14px;
+}
+.myskill_p {
+  line-height: 30px;
+}
+.skill_heading {
+    border-bottom: 4px solid #211678;
+    display: inline;
+    padding-bottom: 9px;
+}
+.project_section div{
+    text-align: center;
+    background: rgb(212, 215, 217);
+    padding: 11px;
+    border-radius: 9px;
+    box-shadow: -2px 2px #cbd4d4;
+    margin: 0px 14px;
+    color: black;
+}
+.about_me
+{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+background-color: #ececec;
+}
+.about_img
+{
+width: 300px;
+height: 300px;
+
+object-fit: cover;
+}
+.about_img img{
+    height: 100%;
+    width: 100%;
+    overflow:hidden;
+    border-radius: 50%;
+}
+.about_ne_image{
+    height: 18px;
+    margin: 0px 10px;
+}
+.about_me ul {
+    display: flex;
+    padding: 0px;
+    margin-bottom: 30px;
+  }
+  .about_me ul li {
+    list-style-type: none;
+    margin: 0px 10px;
+    cursor: pointer;
+  }
+  .footer{
+    background-color: rgb(18, 19, 19);
+    padding: 1px 0px;
+    /* text-align: center; */
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+  }
+.footer_icon{
+    height: 17px;
+    color: white;
+    margin: 21px 10px;
+    cursor: pointer;
+}
